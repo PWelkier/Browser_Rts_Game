@@ -80,11 +80,3 @@ Projekt używa Alembic do zarządzania migracjami bazy danych. Pliki migracji zn
 
 *   [`a49fbf59f500_.py`](backend/migrations/versions/a49fbf59f500_.py): Tworzy tabelę `players`.
 *   [`b977fb50d8f3_create_town_table.py`](backend/migrations/versions/b977fb50d8f3_create_town_table.py): Tworzy tabelę `towns` i dodaje relację z tabelą `players`.
-
-## Bezpieczeństwo
-
-API wymaga uwierzytelnienia za pomocą tokenów JWT. Aby uzyskać dostęp do chronionych zasobów, należy dodać nagłówek `Authorization` z wartością `Bearer <JWT>`, gdzie `<JWT>` to uzyskany token JWT.
-
-## Licencja
-
-[MIT](LICENSE)
